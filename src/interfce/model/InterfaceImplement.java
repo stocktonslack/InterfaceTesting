@@ -11,8 +11,8 @@ public class InterfaceImplement implements Windows9
 	@Override
 	public void hotdogStand(Color color1, Color color2)
 	{
-		InterfacePanel.setBackground(color1);
-		InterfacePanel.set
+//		InterfacePanel.setBackground(color1);
+//		InterfacePanel.set
 	}
 
 	@Override
@@ -26,15 +26,18 @@ public class InterfaceImplement implements Windows9
 	@Override
 	public String windowsClick(int bae)
 	{
-		// TODO Auto-generated method stub
-		return null;
+		int bae = 1337;
+		
+		String windowsClick = "No" + int bae + " why?";
+		
+		return windowsClick(0);
 	}
 
 	@Override
 	public int notABackdoor(int halfLifeThree)
 	{
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return notABackdoor(0);
 	}
 	
 }

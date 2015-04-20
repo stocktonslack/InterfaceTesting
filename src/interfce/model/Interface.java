@@ -23,8 +23,7 @@ public class Interface
 	
 	public void hotdogStand(Color color1, Color color2)
 	{
-		InterfacePanel.setBackgroundColor.getcolor1);
-		InterfacePanel.set
+		
 	}
 	
 	public void bluescreen()

@@ -7,7 +7,13 @@ import interfce.view.InterfacePanel;
 
 public class InterfaceImplement implements Windows9
 {
+	public int bae = 1337;
 
+	public interface()
+	{
+		
+	}
+	
 	@Override
 	public void hotdogStand(Color color1, Color color2)
 	{
@@ -19,16 +25,14 @@ public class InterfaceImplement implements Windows9
 	public void bluescreen(Rage myRage)
 	{
 		
-		
-		
 	}
 
 	@Override
-	public String windowsClick(int bae)
+	public String windowsClick()
 	{
-		int bae = 1337;
+		int bae;
 		
-		String windowsClick = "No" + int bae + " why?";
+		String windowsClick = "No " + int bae + " why?";
 		
 		return windowsClick(0);
 	}
